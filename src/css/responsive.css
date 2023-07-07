@@ -1,0 +1,38 @@
+@media (max-width: 1120px) {
+    .header .logo {
+        max-width: 190px;
+    }
+
+    .gods {
+        flex-direction: column-reverse;
+        max-width: 430px;
+        margin: 0 auto;
+    }
+
+    .gods .personagens {
+        margin-top: 30px;
+    }
+
+    .gods .personagens .titulo {
+        font-size: 15px;
+    }
+
+    .gods .lista-de-personagens {
+        gap: 9px;
+    }
+
+    .gods .personagens img {
+        width: 80px;
+    }
+
+    .selecionado .personagem-principal {
+        width: 350px;
+        height: 350px;
+    }
+
+    .informacoes .descricao {
+        width: 80%;
+        font-size: 16px;
+        margin: 20px auto;
+    }
+}

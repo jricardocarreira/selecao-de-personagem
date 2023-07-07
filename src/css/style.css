@@ -1,0 +1,89 @@
+body {
+    font-family: 'oswald', sans-serif;
+    background-color: #171932;
+    color: #fff;
+}
+
+body::before {
+    content: "";
+    background-image: url(../images/bg-krosmoz.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.gods {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    min-height: calc(100vh - 152px);
+    justify-content: center;
+}
+
+.gods .lista-de-personagens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.gods .personagens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 585px;
+    gap: 25px;
+}
+
+.gods .personagens .titulo {
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #5DC3DB;
+    width: 100%;
+    text-align: center;
+}
+
+.lista-de-personagens .personagem img {
+    height: 100%;
+    width: 100%;
+}
+
+.lista-de-personagens .personagem.selecionado {
+    box-shadow: 0px 0px 24px 5px #F8B24F;
+}
+
+.gods .selecionado {
+    text-align: center;
+    max-width: 530px;
+}
+
+.selecionado .personagem-principal {
+    width: 430px;
+    height: 430px;
+    object-position: 50% 50px;
+}
+
+.informacoes .nome-personagem {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #5DC3DB;
+}
+
+.informacoes .descricao {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 20px;
+    width: 420px;
+}
