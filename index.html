@@ -26,47 +26,58 @@
             <h1 class="titulo">Selecione seu Deus</h1>
 
             <ul class="lista-de-personagens">
-                <li class="personagem selecionado" id="iop">
+                <li class="personagem selecionado" id="iop" data-name="Deus Iop" data-description='Iop, o deus da bravura, dá sua força àqueles que têm a guerra no sangue e estão prontos para atacar, de cabeça baixa, espada em punho! Seu lema: "Bata primeiro, pergunte depois! Depois bata de novo."'>
                     <img src="./src/images/card-iop.png" alt="Deus Iop">
                 </li>
 
-                <li class="personagem" id="cra">
+                <li class="personagem" id="cra" data-name="Deusa Cra" data-description="Cra é a deusa do julgamento e dos olhos aguçados. Arqueiras inigualáveis, suas discípulas sempre acertam na mosca!">
                     <img src="./src/images/card-cra.png" alt="Deusa Cra">
                 </li>
 
-                <li class="personagem" id="eni">
+                <li class="personagem" id="eniripsa" data-name="Deusa Eniripsa" data-description="Eniripsa é a deusa da cura, que sabe curar com uma única palavra. Seus discípulos usam o poder da fala para aliviar o sofrimento de seus aliados ou ferir seus inimigos.">
                     <img src="./src/images/card-eniripsa.png" alt="Deusa Eniripsa">
                 </li>
 
-                <li class="personagem" id="sadida">
+                <li class="personagem" id="sadida" data-name="Deus Sadida" data-description="Sadida é o deus da natureza. Um deus bastante relaxado, seus discípulos adoram correr descalços na grama, plantar sementes... e transformá-los em bonecos aterrorizantes que lutam ao seu lado!">
                     <img src="./src/images/card-sadida.png" alt="Deus Sadida">
                 </li>
 
-                <li class="personagem" id="feca">
+                <!--                 <li class="persongaem" id="ecaflip">
+                    <img src="./src/images/card-ecaflip.png" alt="Deus Ecaflip">
+                </li> -->
+
+                <li class="personagem" id="feca" data-name="Deusa Feca" data-description="Feca é a deusa protetora com escudos e uma vontade de ferro. Ninguém pode passar por sua defesa inabalável!">
                     <img src="./src/images/card-feca.png" alt="Deusa Feca">
                 </li>
 
-                <li class="personagem" id="sram">
+                <li class="personagem" id="sram" data-name="Deus Sram" data-description="Divindade patrona dos Srams e Rogues, esse deus não pensa duas vezes antes de usar e abusar de algumas das piores estratégias para aumentar seu número de seguidores. Ele chegou até a personificar outro deus!">
                     <img src="./src/images/card-sram.png" alt="Deus Sram">
                 </li>
 
-                <li class="personagem" id="sacri">
-                    <img src="./src/images/card-sacrier.png" alt="Deus Sacrier">
+                <li class="personagem" id="sacrieur" data-name="Deusa Sacrier" data-description="A deusa da dor e do sacrifício, Sacrier é uma verdadeira praga para seus inimigos. Seus discípulos extraem seu poder de seus ferimentos: quanto mais dano eles recebem, mais fortes eles ficam.">
+                    <img src="./src/images/card-sacrier.png" alt="Deusa Sacrier">
                 </li>
 
-                <li class="personagem" id="enu">
+                <!--                 <li class="persongaem" id="xelor">
+                    <img src="./src/images/card-xelor.png" alt="Deus Enutrof">
+                </li> -->
+
+                <li class="personagem" id="enutrof" data-name="Deus Enutrof" data-description="Enutrof, o Grande Avarento, gosta de acumular coisas preciosas e, na caça ao tesouro escondido, seus discípulos sabem manejar uma pá e uma picareta como ninguém...">
                     <img src="./src/images/card-enutrof.png" alt="Deus Enutrof">
                 </li>
             </ul>
         </section>
 
-        <section class="selecionado">
-            <img src="./src/images/iop-god.png" alt="" class="personagem-principal">
+        <section class="personagem-selecionado">
+            <img src="./src/images/iop-mob.png" alt="Deus selecionado" class="principal">
+            
+<!--             <img class="pedestal" src="./src/images/socle_iop.png" alt="Pedestal"> -->
 
             <!--             <canvas class="animacao-deus animacao-iop" id="god" onmouseover="animateScript()"></canvas> -->
 
             <div class="informacoes">
-                <h2 class="nome-personagem" id="nome">Deus Iop</h2>
+                <h2 class="nome-personagem" id="nome-personagem">Deus Iop</h2>
+
                 <p class="descricao" id="descricao">Iop, o Deus da bravura, dá sua força àqueles que têm a guerra no
                     sangue e estão prontos para atacar, de cabeça baixa, espada em punho! Seu lema: "Bata primeiro,
                     pergunte depois! Depois bata de novo."</p>
@@ -74,7 +85,7 @@
         </section>
     </main>
 
-    <script src="./src/js/animations.js"></script>
+    <script src="./src/js/index.js"></script>
 </body>
 
 </html>
